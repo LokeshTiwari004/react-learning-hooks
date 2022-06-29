@@ -1,12 +1,16 @@
 import './App.css';
+import CounterFour from './Components/CounterFour';
+// import CounterThree from './Components/CounterThree';
+// import CounterTwo from './Components/CounterTwo';
 // import Counter from "./Components/Counter"
-import CounterTwo from './Components/CounterTwo';
 
 function App() {
   return (
     <div className="App">
+      <CounterFour />
+      {/* <CounterThree /> */}
+      {/* <CounterTwo /> */}
       {/* <Counter /> */}
-      <CounterTwo />
     </div>
   );
 }
