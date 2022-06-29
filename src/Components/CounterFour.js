@@ -3,10 +3,16 @@ import React, { useState } from "react";
 function CounterFour() {
   const [items, setItems] = useState([]);
 
+  // const addItem = () =>
+  //   setItems((preItems) => [
+  //     ...preItems,
+  //     { id: items.length, value: Math.floor(Math.random() * 10) + 1 },
+  //   ]);
+  // -----------------OR-------------------
   const addItem = () =>
-    setItems((preItems) => [
-      ...preItems,
-      { id: items.length, value: Math.floor(Math.random() * 10) + 1 },
+    setItems([
+      ...items,
+      { id: items.length, value: Math.floor(Math.random() * 10) + 1 }
     ]);
 
   return (

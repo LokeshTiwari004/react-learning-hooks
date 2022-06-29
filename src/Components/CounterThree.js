@@ -3,11 +3,17 @@ import React, { useState } from "react";
 function CounterThree() {
   const [name, setName] = useState({ fname: "", lname: "" });
 
+  // const handleChange = (event) =>
+  //   setName((preName) => ({
+  //     ...preName,
+  //     [event.target.name]: event.target.value,
+  //   }));
+  // ----------------------OR------------------
   const handleChange = (event) =>
-    setName((preName) => ({
-      ...preName,
+    setName({
+      ...name,
       [event.target.name]: event.target.value,
-    }));
+    });
 
   return (
     <div>
