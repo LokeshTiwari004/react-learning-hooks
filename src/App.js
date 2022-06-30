@@ -1,16 +1,16 @@
 import './App.css';
-// import CounterFour from './Components/CounterFour';
-// import CounterThree from './Components/CounterThree';
-// import CounterTwo from './Components/CounterTwo';
-// import Counter from "./Components/Counter"
+// import StateFour from './Components/StateFour';
+// import StateThree from './Components/StateThree';
+// import StateTwo from './Components/StateTwo';
+// import StateOne from "./Components/StateOne"
 
 function App() {
   return (
     <div className="App">
-      {/* <CounterFour /> */}
-      {/* <CounterThree /> */}
-      {/* <CounterTwo /> */}
-      {/* <Counter /> */}
+      {/* <StateFour /> */}
+      {/* <StateThree /> */}
+      {/* <StateTwo /> */}
+      {/* <StateOne /> */}
     </div>
   );
 }
