@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import TestTwoChild from "./TestTwoChild";
+import TestThreeChild from "./TestThreeChild";
 
 class TestTwoParent extends Component {
   constructor(props) {
@@ -9,6 +9,7 @@ class TestTwoParent extends Component {
       display: true,
     };
   }
+  
   render() {
     return (
       <div>
@@ -19,7 +20,7 @@ class TestTwoParent extends Component {
         >
           Toggle Display
         </button>
-        {this.state.display && <TestTwoChild />}
+        {this.state.display && <TestThreeChild />}
       </div>
     );
   }

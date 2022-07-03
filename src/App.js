@@ -7,27 +7,41 @@ import StateFour from './Components/StateFour';
 import StateThree from './Components/StateThree';
 import StateTwo from './Components/StateTwo';
 import StateOne from "./Components/StateOne"
-import TestTwoParent from './Components/TestTwoParent';
-import TestTwoChild from './Components/TestTwoChild';
+import TestThreeParent from './Components/TestThreeParent';
+import TestTwo from './Components/TestTwo';
 import EffectThree from './Components/EffectThree';
 import EffectFourParent from './Components/EffectFourParent';
 
 function App() {
   return (
     <div className="App">
+{/* ------------------------------------------- */}
+
       {/* <StateOne /> */}
       {/* <StateTwo /> */}
       {/* <StateThree /> */}
       {/* <StateFour /> */}
 
-      {/* <TestOne /> */}
-      {/* <TestTwoChild /> */}
-      {/* <TestTwoParent /> */}
+{/* ------------------------------------------- */}
 
       {/* <EffectOne /> */}
+
+{/* ------------------------------------------- */}
+
+      {/* <TestOne /> */}
       {/* <EffectTwo /> */}
+
+{/* ------------------------------------------- */}
+
+      {/* <TestTwo /> */}
       {/* <EffectThree /> */}
-      <EffectFourParent />
+
+{/* ------------------------------------------- */}
+
+      {/* <TestThreeParent /> */}
+      {/* <EffectFourParent /> */}
+
+{/* ------------------------------------------- */}
     </div>
   );
 }
