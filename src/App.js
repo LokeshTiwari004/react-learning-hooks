@@ -11,6 +11,7 @@ import TestThreeParent from './Components/TestThreeParent';
 import TestTwo from './Components/TestTwo';
 import EffectThree from './Components/EffectThree';
 import EffectFourParent from './Components/EffectFourParent';
+import TestFour from './Components/TestFour';
 
 function App() {
   return (
@@ -40,6 +41,10 @@ function App() {
 
       {/* <TestThreeParent /> */}
       {/* <EffectFourParent /> */}
+
+{/* ------------------------------------------- */}
+
+      <TestFour />
 
 {/* ------------------------------------------- */}
     </div>
