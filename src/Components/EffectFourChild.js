@@ -19,7 +19,7 @@ function EffectFourChild() {
       window.removeEventListener("mousemove", logMousePosition);
     }
   }, []);
-
+  
   return (
     <div>
       Hooks X - {x}, Y - {y}

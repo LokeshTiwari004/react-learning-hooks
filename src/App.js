@@ -12,6 +12,11 @@ import TestTwo from './Components/TestTwo';
 import EffectThree from './Components/EffectThree';
 import EffectFourParent from './Components/EffectFourParent';
 import TestFour from './Components/TestFour';
+import EffectFive from './Components/EffectFive';
+import DataFetching from './Components/DataFetching';
+import DataFetchingOne from './Components/DataFetchingOne';
+import DataFetchingTwo from './Components/DataFetchingTwo';
+import DataFetchingTwoV2 from './Components/DataFetchingTwoV2';
 
 function App() {
   return (
@@ -44,7 +49,16 @@ function App() {
 
 {/* ------------------------------------------- */}
 
-      <TestFour />
+      {/* <TestFour /> */}
+      {/* <EffectFive /> */}
+
+{/* ------------------------------------------- */}
+
+      {/* <DataFetching /> */}
+      {/* <DataFetchingOne /> */}
+      {/* <DataFetchingTwo /> */}
+      <DataFetchingTwoV2 />
+      
 
 {/* ------------------------------------------- */}
     </div>

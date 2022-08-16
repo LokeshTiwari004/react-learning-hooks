@@ -2,7 +2,7 @@ import React from "react";
 
 function EffectTwo() {
   const [count, setCount] = React.useState(0);
-  const [name, setName] = React.useState('');
+  const [name, setName] = React.useState("");
 
   React.useEffect(() => {
     console.log("Updating Title");
@@ -16,11 +16,7 @@ function EffectTwo() {
         value={name}
         onChange={(event) => setName(event.target.value)}
       />
-      <button
-        onClick={() =>
-          setCount((preCount) => preCount + 1)
-        }
-      >
+      <button onClick={() => setCount((preCount) => preCount + 1)}>
         Clicked {count} times
       </button>
     </div>
